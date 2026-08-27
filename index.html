@@ -3,9 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="Sri Divya Diagnostic Centres — advanced diagnostics, health packages and home sample collection in Khammam." />
+  <meta name="description" content="SHA Hospital — advanced diagnostics, health packages and home sample collection in Khammam." />
   <meta name="theme-color" content="#d92721" />
-  <title>Sri Divya Diagnostic Centres | Khammam</title>
+  <title>SHA Hospital | Khammam</title>
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet" />
@@ -127,7 +127,7 @@
     const { useState, useEffect } = React;
     gsap.registerPlugin(ScrollTrigger);
 
-    const LOGO = "https://sridivya.in/wp-content/uploads/2023/02/cropped-Screen-Shot-2017-01-27-at-10.28.11-AM-180x180.png";
+    const LOGO = "ShaGroup-Logo-Ori-removebg-preview.png";
     const images = {
       doctor: "https://images.unsplash.com/photo-1651008376811-b90baee60c1f?auto=format&fit=crop&w=1400&q=85",
       lab: "https://images.unsplash.com/photo-1579154204601-01588f351e67?auto=format&fit=crop&w=1200&q=85",
@@ -169,9 +169,9 @@
     ];
 
     const branches = [
-      { name: "Sri Divya Diagnostic Centre", tag: "Branch 1", address: "Thrimurth Towers, Beside City Bus Stand, Old Municipal Office Road, Khammam", phones: ["70329 96647", "087424 66664", "08742-224570"], accent: "bg-forest" },
-      { name: "Sri Divya Diagnostic Centre", tag: "Branch 2", address: "Near Dr. Gorkey Hospital, Wyra Road, Khammam", phones: ["81216 51600", "087424 64996"], accent: "bg-coral" },
-      { name: "Sri Divya CT/MRI Centre", tag: "Imaging", address: "Kamala Medical Hall Road, Beside City Bus Stand, Khammam", phones: ["087424 64997", "81251 84943"], accent: "bg-[#2d2525]" }
+      { name: "SHA Hospital", tag: "Branch 1", address: "Thrimurth Towers, Beside City Bus Stand, Old Municipal Office Road, Khammam", phones: ["70329 96647", "087424 66664", "08742-224570"], accent: "bg-forest" },
+      { name: "SHA Hospital", tag: "Branch 2", address: "Near Dr. Gorkey Hospital, Wyra Road, Khammam", phones: ["81216 51600", "087424 64996"], accent: "bg-coral" },
+      { name: "SHA Hospital CT/MRI Centre", tag: "Imaging", address: "Kamala Medical Hall Road, Beside City Bus Stand, Khammam", phones: ["087424 64997", "81251 84943"], accent: "bg-[#2d2525]" }
     ];
 
     const formatPrice = n => `₹${n.toLocaleString("en-IN")}`;
@@ -242,11 +242,11 @@
         <AnnouncementBar />
         <header className="sticky top-0 z-50 border-b border-forest/10 bg-cream/90 backdrop-blur-xl">
           <div className="mx-auto flex h-[78px] max-w-[1400px] items-center justify-between px-5 sm:px-8 lg:px-12">
-            <button onClick={() => go("home")} className="flex items-center gap-3 text-left" aria-label="Sri Divya home">
-              <img src={LOGO} alt="Sri Divya logo" className="h-12 w-12 rounded-full bg-white object-contain ring-1 ring-forest/10" />
+            <button onClick={() => go("home")} className="flex items-center gap-3 text-left" aria-label="SHA Hospital home">
+              <img src={LOGO} alt="SHA Hospital logo" className="h-12 w-12 rounded-full bg-white object-contain ring-1 ring-forest/10" />
               <div>
-                <div className="font-display text-[17px] font-extrabold leading-tight text-forest-dark sm:text-[19px]">Sri Divya</div>
-                <div className="text-[9px] font-bold uppercase tracking-[.22em] text-forest/70 sm:text-[10px]">Diagnostic Centres</div>
+                <div className="font-display text-[17px] font-extrabold leading-tight text-forest-dark sm:text-[19px]">SHA Hospital</div>
+                <div className="text-[9px] font-bold uppercase tracking-[.22em] text-forest/70 sm:text-[10px]">Advanced Healthcare</div>
               </div>
             </button>
             <nav className="hidden items-center gap-8 lg:flex" aria-label="Main navigation">
@@ -411,7 +411,7 @@
               <div className="text-4xl font-extrabold text-coral">2009</div><p className="mt-1 text-sm leading-6 text-white/75">The year our commitment to trusted diagnostics in Khammam began.</p>
             </div>
           </div>
-          <div className="section-reveal pt-8 lg:pt-0"><SectionEyebrow>Rooted in Khammam</SectionEyebrow><h2 className="text-balance font-display text-4xl font-extrabold leading-tight text-forest-dark sm:text-5xl">Experience you can trust. Care you can feel.</h2><p className="mt-6 text-base leading-7 text-ink/65">Founded by senior pathologist Dr. T. Vasudeva Rao, Sri Divya brings together more than three decades of pathology experience, modern equipment and a deeply local understanding of patient care.</p>
+          <div className="section-reveal pt-8 lg:pt-0"><SectionEyebrow>Rooted in Khammam</SectionEyebrow><h2 className="text-balance font-display text-4xl font-extrabold leading-tight text-forest-dark sm:text-5xl">Experience you can trust. Care you can feel.</h2><p className="mt-6 text-base leading-7 text-ink/65">Founded by senior pathologist Dr. T. Vasudeva Rao, SHA Hospital brings together more than three decades of pathology experience, modern equipment and a deeply local understanding of patient care.</p>
             <div className="mt-8 grid gap-4 sm:grid-cols-2">
               <div className="rounded-2xl border border-forest/10 p-5"><Icon name="shield" className="text-coral"/><h3 className="mt-4 text-base font-extrabold text-forest-dark">Transparent practice</h3><p className="mt-2 text-xs leading-5 text-ink/55">Ethical testing and clear, dependable reporting.</p></div>
               <div className="rounded-2xl border border-forest/10 p-5"><Icon name="user" className="text-coral"/><h3 className="mt-4 text-base font-extrabold text-forest-dark">Human-first care</h3><p className="mt-2 text-xs leading-5 text-ink/55">Qualified teams who treat every patient with respect.</p></div>
@@ -467,10 +467,10 @@
     }
 
     function AboutPage() {
-      return <main><PageHero eyebrow="About Sri Divya" title="Built on experience. Driven by a healthier tomorrow." text="An independent diagnostic centre serving Khammam and surrounding districts with modern facilities and a steadfast commitment to trustworthy care."/>
+      return <main><PageHero eyebrow="About SHA Hospital" title="Built on experience. Driven by a healthier tomorrow." text="An independent diagnostic centre serving Khammam and surrounding districts with modern facilities and a steadfast commitment to trustworthy care."/>
         <section className="px-5 py-20 sm:px-8 lg:px-12 lg:py-28"><div className="mx-auto grid max-w-[1400px] items-center gap-14 lg:grid-cols-2 lg:gap-24">
-          <div className="section-reveal relative"><div className="hero-blob overflow-hidden"><img src={images.team} alt="Sri Divya healthcare team" className="aspect-square w-full object-cover"/></div><div className="absolute -bottom-5 right-0 rounded-2xl bg-coral p-5 text-white sm:right-4"><span className="block font-display text-3xl font-extrabold">36 years</span><span className="text-xs text-white/80">of pathology experience</span></div></div>
-          <div className="section-reveal"><SectionEyebrow>Our beginning</SectionEyebrow><h2 className="text-4xl font-extrabold text-forest-dark sm:text-5xl">A legacy of precise, principled diagnostics.</h2><p className="mt-6 text-base leading-7 text-ink/65">Sri Divya Diagnostic Centres was established in 2009 by senior pathologist Dr. T. Vasudeva Rao. Today, it serves patients from Khammam, Nalgonda and parts of Warangal districts.</p><p className="mt-4 text-base leading-7 text-ink/65">The centre became the region's first ISO 9001-certified diagnostic facility through Quality Veritas, UK—an important milestone in its continuing focus on quality systems and reliable service.</p><div className="mt-8 flex items-center gap-4 rounded-2xl bg-mint p-5"><span className="grid h-12 w-12 shrink-0 place-items-center rounded-full bg-white text-forest"><Icon name="award"/></span><div><strong className="block text-sm font-extrabold text-forest-dark">Quality with purpose</strong><span className="text-xs leading-5 text-ink/55">Modern equipment, qualified professionals and transparent reporting.</span></div></div></div>
+          <div className="section-reveal relative"><div className="hero-blob overflow-hidden"><img src={images.team} alt="SHA Hospital healthcare team" className="aspect-square w-full object-cover"/></div><div className="absolute -bottom-5 right-0 rounded-2xl bg-coral p-5 text-white sm:right-4"><span className="block font-display text-3xl font-extrabold">36 years</span><span className="text-xs text-white/80">of pathology experience</span></div></div>
+          <div className="section-reveal"><SectionEyebrow>Our beginning</SectionEyebrow><h2 className="text-4xl font-extrabold text-forest-dark sm:text-5xl">A legacy of precise, principled diagnostics.</h2><p className="mt-6 text-base leading-7 text-ink/65">SHA Hospital was established in 2009 by senior pathologist Dr. T. Vasudeva Rao. Today, it serves patients from Khammam, Nalgonda and parts of Warangal districts.</p><p className="mt-4 text-base leading-7 text-ink/65">The centre became the region's first ISO 9001-certified diagnostic facility through Quality Veritas, UK—an important milestone in its continuing focus on quality systems and reliable service.</p><div className="mt-8 flex items-center gap-4 rounded-2xl bg-mint p-5"><span className="grid h-12 w-12 shrink-0 place-items-center rounded-full bg-white text-forest"><Icon name="award"/></span><div><strong className="block text-sm font-extrabold text-forest-dark">Quality with purpose</strong><span className="text-xs leading-5 text-ink/55">Modern equipment, qualified professionals and transparent reporting.</span></div></div></div>
         </div></section>
         <section className="page-grid bg-[#fff1ed] px-5 py-20 sm:px-8 lg:px-12 lg:py-24"><div className="mx-auto max-w-[1400px]"><div className="grid gap-5 md:grid-cols-2">
           <article className="section-reveal rounded-[30px] bg-forest p-8 text-white sm:p-12"><span className="text-xs font-extrabold uppercase tracking-[.2em] text-coral">Our vision</span><h2 className="mt-6 text-3xl font-extrabold sm:text-4xl">Healthcare that feels within everyone's reach.</h2><p className="mt-5 text-sm leading-7 text-white/60">To make healthcare accessible to everyone and contribute meaningfully to the wellbeing of every community we serve.</p></article>
@@ -533,11 +533,11 @@
 
     function Footer() {
       return <footer className="bg-forest-dark px-5 pb-8 pt-16 text-white sm:px-8 lg:px-12"><div className="mx-auto max-w-[1400px]"><div className="grid gap-12 border-b border-white/10 pb-12 md:grid-cols-2 lg:grid-cols-[1.5fr_1fr_1fr_1.2fr]">
-        <div><button onClick={()=>go("home")} className="flex items-center gap-3 text-left"><img src={LOGO} alt="Sri Divya logo" className="h-12 w-12 rounded-full bg-white object-contain"/><div><div className="font-display text-lg font-extrabold">Sri Divya</div><div className="text-[9px] font-bold uppercase tracking-[.2em] text-white/50">Diagnostic Centres</div></div></button><p className="mt-5 max-w-sm text-sm leading-6 text-white/50">Accurate diagnostics, advanced imaging and compassionate care for Khammam and surrounding communities.</p></div>
+        <div><button onClick={()=>go("home")} className="flex items-center gap-3 text-left"><img src={LOGO} alt="SHA Hospital logo" className="h-12 w-12 rounded-full bg-white object-contain"/><div><div className="font-display text-lg font-extrabold">SHA Hospital</div><div className="text-[9px] font-bold uppercase tracking-[.2em] text-white/50">Advanced Healthcare</div></div></button><p className="mt-5 max-w-sm text-sm leading-6 text-white/50">Accurate diagnostics, advanced imaging and compassionate care for Khammam and surrounding communities.</p></div>
         <div><h3 className="text-sm font-extrabold">Explore</h3><div className="mt-5 flex flex-col items-start gap-3">{[["home","Home"],["services","Services"],["packages","Health Packages"],["about","About us"]].map(([p,l])=><button key={p} onClick={()=>go(p)} className="text-xs text-white/50 transition hover:text-coral">{l}</button>)}</div></div>
         <div><h3 className="text-sm font-extrabold">Patient care</h3><div className="mt-5 flex flex-col items-start gap-3"><button onClick={()=>go("contact")} className="text-xs text-white/50 hover:text-coral">Book appointment</button><button onClick={()=>go("packages")} className="text-xs text-white/50 hover:text-coral">Preventive checkups</button><button onClick={()=>go("contact")} className="text-xs text-white/50 hover:text-coral">Home collection</button><button onClick={()=>go("cart")} className="text-xs text-white/50 hover:text-coral">Your cart</button></div></div>
         <div><h3 className="text-sm font-extrabold">Get in touch</h3><a href="tel:+917032996647" className="mt-5 flex items-center gap-2 text-sm font-bold text-white hover:text-coral"><Icon name="phone" size={16}/>70329 96647</a><a href="mailto:sridivyadiagnostics@gmail.com" className="mt-3 block break-all text-xs text-white/50 hover:text-coral">sridivyadiagnostics@gmail.com</a><p className="mt-4 text-xs leading-5 text-white/45">Old Municipal Office Road,<br/>Khammam, Telangana</p></div>
-      </div><div className="flex flex-col gap-3 pt-7 text-[10px] text-white/35 sm:flex-row sm:items-center sm:justify-between"><span>© {new Date().getFullYear()} Sri Divya Diagnostic Centres. All rights reserved.</span><span>Health information on this site is general and does not replace medical advice.</span></div></div></footer>;
+      </div><div className="flex flex-col gap-3 pt-7 text-[10px] text-white/35 sm:flex-row sm:items-center sm:justify-between"><span>© {new Date().getFullYear()} SHA Hospital. All rights reserved.</span><span>Health information on this site is general and does not replace medical advice.</span></div></div></footer>;
     }
 
     function App() {
